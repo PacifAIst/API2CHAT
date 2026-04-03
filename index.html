@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API2CHAT - ZERO-KNOWLEDGE AND MAX COMPATIBLE LLM API CHAT</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <main class="chat-container">
+        <div class="messages-area" id="messages-area">
+           <pre class="ascii-logo">
+ █████╗ ██████╗ ██╗██████╗  ██████╗██╗  ██╗ █████╗ ████████╗
+██╔══██╗██╔══██╗██║╚════██╗██╔════╝██║  ██║██╔══██╗╚══██╔══╝
+███████║██████╔╝██║ █████╔╝██║     ███████║███████║   ██║   
+██╔══██║██╔═══╝ ██║██╔═══╝ ██║     ██╔══██║██╔══██║   ██║   
+██║  ██║██║     ██║███████╗╚██████╗██║  ██║██║  ██║   ██║   
+╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   
+[ ZERO-KNOWLEDGE AND MAX COMPATIBLE LLM API CHAT ]
+</pre>
+
+<style>
+.ascii-logo {
+    text-align: center;
+    font-family: monospace;
+    white-space: pre;
+    margin: 0px auto;
+}
+</style>
+            </div>
+
+        <div class="input-area" id="input-area" style="display: none;">
+            <div class="input-wrapper">
+                <input type="file" id="file-upload" class="hidden-file-input" accept=".txt,.pdf,.csv,.md">
+                <button class="icon-btn attachment-btn" id="attach-btn" title="Attach File">📎</button>
+                <textarea id="chat-input" placeholder="Message... (Press Enter to send a message or ask about an attached file)" rows="1"></textarea>
+                
+                <div class="input-divider"></div>
+                
+                <button class="control-btn" id="info-btn" title="Information">ℹ️  Info </button>
+                <button class="control-btn" id="restart-btn" title="Restart Session">🔄 Flush session </button>
+            </div>
+            <div class="file-preview" id="file-preview" style="display: none;">
+                <span id="file-name">filename.txt</span>
+                <button class="icon-btn remove-file-btn" id="remove-file-btn">❌</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal-overlay" id="settings-modal">
+        <div class="modal">
+            <h2>Start Session</h2>
+            <p style="margin-bottom: 15px; color: var(--text-secondary); font-size: 14px;">Select your API provider. Zero-knowledge: no data stored.</p>
+            
+            <div class="form-group radio-group">
+            <label><input type="radio" name="api-provider" value="openai" checked> OpenAI (gpt-4o-mini)</label>
+            <label><input type="radio" name="api-provider" value="deepseek"> DeepSeek (DeepSeek 3.2)</label>
+            <label><input type="radio" name="api-provider" value="openrouter"> OpenRouter (Qwen3.5-flash)</label>
+            <label><input type="radio" name="api-provider" value="custom"> <b>Custom</b></label>
+        </div>
+
+            <div class="form-group" id="url-group" style="display: none;">
+                <label>API Base URL (e.g., https://api.mistral.ai/v1)</label>
+                <input type="text" id="api-url" value="https://api.openai.com/v1">
+            </div>
+
+            <div class="form-group" id="model-group" style="display: none;">
+                <label>Model (e.g., mistral-large-latest)</label>
+                <input type="text" id="api-model" value="gpt-4o-mini">
+            </div>
+
+            <div class="form-group">
+                <label>API Key</label>
+                <input type="password" id="api-key" placeholder="Enter your API Key..." autocomplete="off">
+            </div>
+            <button class="save-btn" id="start-session-btn">Start Chat</button>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="info-modal" style="display: none;">
+        <div class="modal info-modal-content">
+            <button class="close-info-btn" id="close-info-btn" title="Close">❌</button>
+            
+            <h2 style="margin-bottom: 20px; color: var(--accent-color);">ℹ️ About API2CHAT</h2>
+            
+            <div class="info-section">
+                <h3>🛡️ Zero-Knowledge & Secure</h3>
+                <p>This is a purely client-side GUI. <strong>No data, API keys, or chat logs are stored</strong> anywhere on any server. Everything runs safely within your own browser's temporary memory.</p>
+            </div>
+            
+            <div class="info-section">
+                <h3>⚡ Maximum Compatibility</h3>
+                <p>Host it absolutely anywhere! It's fully compatible with basic, low-tier hosting (like Namecheap, HostGator, Bluehost). It requires <strong>no PHP, Node.js, or backend architecture</strong> to run.</p>
+            </div>
+            
+            <div class="info-section">
+                <h3>📱 Universal Access</h3>
+                <p>Works natively on Windows, macOS, Linux, Android, and iOS. Just download the release from <a href="https://github.com/PacifAIst/API2CHAT" target="_blank">GitHub</a>, unzip the folder, and open <code>index.html</code> in any modern browser.</p>
+            </div>
+            
+            <div class="info-section">
+                <h3>🔄 Complete Wipe</h3>
+                <p>Click the <strong>Flush session</strong> button next to the chat box at any time to instantly wipe your credentials and chat history from memory, leaving zero trace.</p>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid var(--border-color); margin: 20px 0;">
+            
+            <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 0;">
+                <strong>Author:</strong> Dr. Manuel Herrador (<a href="mailto:mherrador@ujaen.es" style="color: var(--accent-color); text-decoration: none;">mherrador@ujaen.es</a>)<br>
+                <strong>License:</strong> Apache 2.0
+            </p>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
