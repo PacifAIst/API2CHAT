@@ -16,7 +16,9 @@
 
 <br>
 
-**API2CHAT** is a lightweight, purely client-side Graphical User Interface designed to interact with any OpenAI-compatible LLM endpoint. It bypasses the need for bloated backends, databases, or subscriptions, allowing you to plug in your own API keys securely. **[SEE THE LIVE DEMO](https://pacifaist.github.io/API2CHAT/)**
+**API2CHAT** is a lightweight, purely client-side Graphical User Interface designed to interact with any OpenAI-compatible LLM endpoint. It bypasses the need for bloated backends, databases, or subscriptions, allowing you to plug in your own API keys securely. 
+
+## 💡 [SEE LIVE DEMO](https://pacifaist.github.io/API2CHAT/)
 
 ## 🚀 Key Features
 
@@ -69,5 +71,5 @@ Want to host your own secure, live instance for free?
 
 ## 👨‍💻 Author & License
 
-Created by **Dr. Manuel Herrador** ([mherrador@ujaen.es](mailto:mherrador@ujaen.es))  
+Created by **Dr. Manuel Herrador** ([mherrador@ujaen.es](mailto:mherrador@ujaen.es)) - University of Jaen (Spain) 
 Released under the **Apache 2.0 License**. You are free to modify, distribute, and use this software privately or commercially. The author takes no liability.
