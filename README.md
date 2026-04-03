@@ -42,7 +42,6 @@ API2CHAT features a sleek, terminal-inspired interface designed for speed and lo
 
 ### 📎 Local File Reading (Zero-Upload)
 API2CHAT can natively read local files and inject them directly into your LLM prompt. **Files are never uploaded to a server**. Your browser reads the text locally and sends it straight to the API provider. 
-* Supported formats: `.txt`, `.md`, `.csv`, `.pdf` *(text-layer only)*.
 
 ## 🛠️ Quick Start (Local Use)
 
