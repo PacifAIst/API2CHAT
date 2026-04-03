@@ -45,7 +45,7 @@ API2CHAT features a sleek, terminal-inspired interface designed for speed and lo
 ### 📎 Local File Reading (Zero-Upload)
 API2CHAT can natively read local files and inject them directly into your LLM prompt. **Files are never uploaded to a server**. Your browser reads the text locally and sends it straight to the API provider. 
 
-## 🛠️ Quick Start for Deployment Locally or Starting from a Cheap Shared Webhosting
+## 🛠️ Deployment Locally or Starting from a Cheap Shared Webhosting
 
 1. Clone or download this repository or [its ZIP release](https://github.com/PacifAIst/API2CHAT/releases/download/API2CHAT/API2CHAT_v1.0.0.zip) (less than 9KBs).
 2. Unzip the contents to your device or any hosting provider (from low-end Namecheap, Hostgator, etc... will work!)
