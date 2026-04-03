@@ -51,7 +51,7 @@ API2CHAT can natively read local files and inject them directly into your LLM pr
 2. **Unzip the contents** to your device or any hosting provider _(from low-end Namecheap, Hostgator, etc... will work!)._
 3. Double-click `index.html` to open it **in any browser and OS** _(requires no: PHP, Python, Node.js... nothing!)._
 4. Select provider, paste your API key, and start chatting. You can **copy/paste text or upload a file** to ask the LLM.
-5. (Optionally) To make sure all data was erased click **"Flush session"**, or if you wish to start a new clean chat.
+5. _(Optionally)_ To make sure all data was erased click **"Flush session"**, or if you wish to start a new clean chat.
 
 ## 🌐 Deploying to GitHub Pages
 
