@@ -45,13 +45,13 @@ API2CHAT features a sleek, terminal-inspired interface designed for speed and lo
 ### 📎 Local File Reading (Zero-Upload)
 API2CHAT can natively read local files and inject them directly into your LLM prompt. **Files are never uploaded to a server**. Your browser reads the text locally and sends it straight to the API provider. 
 
-## 🛠️ Quick Start (Local Use)
+## 🛠️ Quick Start for Deployment Locally or in a Cheap Shared Webhosting (from low-end ones: does not even need PHP!)
 
 1. Clone or download this repository or [its release](https://github.com/PacifAIst/API2CHAT/releases/download/API2CHAT/API2CHAT_v1.0.0.zip) (less than 9KBs).
 2. Unzip the contents to your device or any hosting provider (from low-end Namecheap, Hostgator, etc... will work!)
-3. Double-click `index.html` to open it in any modern browser and any OS (requires no PHP, no Python, no server running, nothing!).
+3. Double-click `index.html` to open it in any modern browser and any OS (requires no PHP, no Python, no server/node.js, nothing!).
 4. Select your provider, paste your API key, and start chatting. You can copy/paste text or even upload a file to ask the LLM about.
-5. (Optionally) To make sure all the data was erased click "Flush session".
+5. (Optionally) To make sure all the data was erased click "Flush session" or if you wish to start a new clean chat.
 
 ## 🌐 Deploying to GitHub Pages
 
