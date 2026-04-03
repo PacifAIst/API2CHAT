@@ -22,8 +22,8 @@
 
 * **🛡️ 100% Zero-Knowledge Security:** No data, API keys, or chat logs are ever transmitted to or stored on a centralized server. The app runs entirely in your browser's volatile memory. Refreshing or flushing the session destroys the keys locally.
 * **🔌 Maximum Compatibility:** Natively supports OpenAI, Google (Gemini via OpenAI Shim), DeepSeek, and OpenRouter. Features a "Custom" mode to connect to any local (e.g., LM Studio, Ollama) or remote provider using the OpenAI standard.
-* **📎 Local File Context:** Built-in `.txt`, `.md`, and `.csv` parsing. Files are read locally by your browser and injected into the LLM prompt without requiring an upload server.
-* **💻 Host Anywhere:** Because there is no PHP, Python, or Node.js required, you can host API2CHAT on GitHub Pages, S3 buckets, cheap shared hosting, or simply double-click `index.html` on your desktop.
+* **📎 Local File Context:**  Files are read locally by your browser and injected into the LLM prompt without requiring an upload server.
+* **💻 Host Anywhere:** Because there is no PHP, Python, or Node.js required, you can host API2CHAT on GitHub Pages, S3 buckets, cheap shared hosting (e.g., Namecheap), or simply double-click `index.html` on your desktop (Windows, Linux, iOS, Android, rpi-related...).
 * **🎨 Hacker Aesthetic:** A sleek, minimal, dark-mode UI with full Markdown rendering and code syntax highlighting.
 
 ## 🛠️ Quick Start (Local Use)
@@ -41,12 +41,11 @@ Want to host your own secure, live instance for free?
 3. Under **Branch**, select `main` and click **Save**.
 4. Your live link will be generated in minutes.
 
-## 🤖 Supported Providers & Defaults
+## 🤖 Provider Examples by Default (RECOMMENDED: click in 'Custom' to use yours)
 
 | Provider | Base URL | Default Model |
 | :--- | :--- | :--- |
 | **OpenAI** | `https://api.openai.com/v1` | `gpt-4o-mini` |
-| **Google** | `https://generativelanguage.googleapis.com/v1beta/openai/` | `gemini-3.1-pro` |
 | **DeepSeek** | `https://api.deepseek.com` | `deepseek-chat` |
 | **OpenRouter** | `https://openrouter.ai/api/v1` | `qwen/qwen3.5-flash-02-23` |
 | **Custom** | *User Defined* | *User Defined* |
@@ -54,4 +53,4 @@ Want to host your own secure, live instance for free?
 ## 👨‍💻 Author & License
 
 Created by **Dr. Manuel Herrador** ([mherrador@ujaen.es](mailto:mherrador@ujaen.es))  
-Released under the **Apache 2.0 License**. You are free to modify, distribute, and use this software privately or commercially.
+Released under the **Apache 2.0 License**. You are free to modify, distribute, and use this software privately or commercially. The author takes no liability.
