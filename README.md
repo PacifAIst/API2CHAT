@@ -14,8 +14,6 @@
   [![HTML/JS](https://img.shields.io/badge/tech-HTML5%20%7C%20Vanilla%20JS-f06529)](https://github.com/PacifAIst/API2CHAT)
 </div>
 
-<br>
-
 **API2CHAT** is a lightweight, purely client-side Graphical User Interface designed to interact with any OpenAI-compatible LLM endpoint. It bypasses the need for bloated backends, databases, or subscriptions, allowing you to plug in your own API keys securely.
 
 ## 🚀 Key Features
