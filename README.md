@@ -31,13 +31,13 @@
 API2CHAT features a sleek, terminal-inspired interface designed for speed and low-friction interactions.
 
 <div align="center">
-  <img src="/images/1.png" width="30%" alt="Main Chat Interface">
+  <img src="/images/1.png" width="66%" alt="Main Chat Interface">
 </div>
 <div align="center">
-  <img src="/images/2.png" width="30%" alt="Settings Modal">
+  <img src="/images/2.png" width="66%" alt="Settings Modal">
 </div>
 <div align="center">
-  <img src="/images/3.png" width="30%" alt="File Reading Context">
+  <img src="/images/3.png" width="66%" alt="File Reading Context">
 </div>
 
 ### 📎 Local File Reading (Zero-Upload)
