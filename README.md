@@ -47,7 +47,7 @@ API2CHAT can natively read local files and inject them directly into your LLM pr
 
 ## 🛠️ Quick Start (Local Use)
 
-1. Clone or download this repository or [its release](https://github.com/PacifAIst/API2CHAT/releases/download/API2CHAT/API2CHAT_v1.0.0.zip).
+1. Clone or download this repository or [its release](https://github.com/PacifAIst/API2CHAT/releases/download/API2CHAT/API2CHAT_v1.0.0.zip) (less than 9KBs).
 2. Unzip the contents.
 3. Double-click `index.html` to open it in any modern browser.
 4. Select your provider, paste your API key, and start chatting.
