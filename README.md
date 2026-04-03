@@ -32,7 +32,11 @@ API2CHAT features a sleek, terminal-inspired interface designed for speed and lo
 
 <div align="center">
   <img src="/images/1.png" width="30%" alt="Main Chat Interface">
+</div>
+<div align="center">
   <img src="/images/2.png" width="30%" alt="Settings Modal">
+</div>
+<div align="center">
   <img src="/images/3.png" width="30%" alt="File Reading Context">
 </div>
 
