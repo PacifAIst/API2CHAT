@@ -16,7 +16,7 @@
 
 <br>
 
-**API2CHAT** is a lightweight, purely client-side Graphical User Interface designed to interact with any OpenAI-compatible LLM endpoint. It bypasses the need for bloated backends, databases, or subscriptions, allowing you to plug in your own API keys securely.
+**API2CHAT** is a lightweight, purely client-side Graphical User Interface designed to interact with any OpenAI-compatible LLM endpoint. It bypasses the need for bloated backends, databases, or subscriptions, allowing you to plug in your own API keys securely. **[SEE THE LIVE DEMO](https://pacifaist.github.io/API2CHAT/)**
 
 ## 🚀 Key Features
 
