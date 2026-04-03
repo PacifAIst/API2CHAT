@@ -26,9 +26,24 @@
 * **💻 Host Anywhere:** Because there is no PHP, Python, or Node.js required, you can host API2CHAT on GitHub Pages, S3 buckets, cheap shared hosting (e.g., Namecheap), or simply double-click `index.html` on your desktop (Windows, Linux, iOS, Android, rpi-related...).
 * **🎨 Hacker Aesthetic:** A sleek, minimal, dark-mode UI with full Markdown rendering and code syntax highlighting.
 
+## 📸 Interface & Features
+
+API2CHAT features a sleek, terminal-inspired interface designed for speed and low-friction interactions.
+
+*(Replace these placeholder links with actual paths to your screenshots once uploaded)*
+<div align="center">
+  <img src="/assets/screenshot1-chat.png" width="30%" alt="Main Chat Interface">
+  <img src="/assets/screenshot2-settings.png" width="30%" alt="Settings Modal">
+  <img src="/assets/screenshot3-file.png" width="30%" alt="File Reading Context">
+</div>
+
+### 📎 Local File Reading (Zero-Upload)
+API2CHAT can natively read local files and inject them directly into your LLM prompt. **Files are never uploaded to a server**. Your browser reads the text locally and sends it straight to the API provider. 
+* Supported formats: `.txt`, `.md`, `.csv`, `.pdf` *(text-layer only)*.
+
 ## 🛠️ Quick Start (Local Use)
 
-1. Clone or download this repository.
+1. Clone or download this repository or its release.
 2. Unzip the contents.
 3. Double-click `index.html` to open it in any modern browser.
 4. Select your provider, paste your API key, and start chatting.
