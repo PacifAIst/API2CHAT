@@ -61,7 +61,7 @@ Want to host your own secure, live instance for free?
 3. Under **Branch**, select `main` and click **Save**.
 4. Your live link will be generated in minutes.
 
-## 🤖 Provider Examples by Default (RECOMMENDED: click 'Custom' to use yours)
+## 🤖 Provider Examples by Default (RECOMMENDED: click 'Custom' for yours)
 
 | Provider | Base URL | Default Model |
 | :--- | :--- | :--- |
