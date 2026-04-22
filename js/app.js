@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         messagesArea.querySelectorAll('.message').forEach(m => m.remove());
         inputArea.style.display = 'none';
         settingsModal.style.display = 'flex';
-        d.querySelector('input[value="openai"]').click(); // Reset radio
+        d.querySelector('input[value="openrouter"]').click(); // Reset radio
     });
 
     // 3. INPUT & FILE HANDLING
