@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (isCustom) { apiUrl.value = apiModel.value = ''; }
             else if (v === 'openai') { apiUrl.value = 'https://api.openai.com/v1'; apiModel.value = 'gpt-4o-mini'; }
             else if (v === 'deepseek') { apiUrl.value = 'https://api.deepseek.com'; apiModel.value = 'deepseek-chat'; }
-            else if (v === 'openrouter') { apiUrl.value = 'https://openrouter.ai/api/v1'; apiModel.value = 'qwen/qwen3.5-flash-02-23'; }
+            else if (v === 'openrouter') { apiUrl.value = 'https://openrouter.ai/api/v1'; apiModel.value = 'openrouter/free'; }
         });
     });
 
