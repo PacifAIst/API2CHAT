@@ -16,7 +16,7 @@
 
 <br>
 
-**API2CHAT** is a lightweight (below 9KBs), purely client-side Graphical User Interface designed to interact with any OpenAI-compatible LLM endpoint. It bypasses the need for bloated backends, databases, or subscriptions, allowing you to plug in your own API keys securely. 
+**API2CHAT** is a lightweight (below 13KBs), purely client-side Graphical User Interface designed to interact with any OpenAI-compatible LLM endpoint. It bypasses the need for bloated backends, databases, or subscriptions, allowing you to plug in your own API keys securely. 
 
 ## 💡 [SEE LIVE DEMO](https://pacifaist.github.io/API2CHAT/)
 
@@ -47,7 +47,7 @@ API2CHAT can natively read local files and inject them directly into your LLM pr
 
 ## 🛠️ Deployment Locally or Starting from a Cheap Shared Webhosting
 
-1. Clone or download this repository or [its [ZIP release](https://github.com/PacifAIst/API2CHAT/releases/tag/API2CHAT_v2)] (less than 9KBs).
+1. Clone or download this repository or [its [ZIP release](https://github.com/PacifAIst/API2CHAT/releases/tag/API2CHAT_v2)] (less than 13KBs).
 2. **Unzip the contents** to your device or any hosting provider _(from low-end Namecheap, Hostgator, etc... will work!)._
 3. Double-click `index.html` to open it **in any browser and OS** _(requires no: PHP, Python, Node.js... nothing!)._
 4. Select provider, paste your API key, and start chatting. You can **copy/paste text or upload a file** to ask the LLM.
