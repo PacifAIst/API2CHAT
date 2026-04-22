@@ -18,6 +18,8 @@
 
 **API2CHAT** is a lightweight (below 13KBs), purely client-side Graphical User Interface designed to interact with any OpenAI-compatible LLM endpoint. It bypasses the need for bloated backends, databases, or subscriptions, allowing you to plug in your own API keys securely. 
 
+**NEW v2 release!** Added the free OpenRouter models by default (https://openrouter.ai/openrouter/free), so you can simply paste your OpenRouter API key. **Important!** OpenRouter's free tier for free models typically allows 200 daily queries. If you purchase at least 10 credits (about $10), your daily limit increases to 1000 free model requests per day :)
+
 ## 💡 [SEE LIVE DEMO](https://pacifaist.github.io/API2CHAT/)
 
 ## 🚀 Key Features
